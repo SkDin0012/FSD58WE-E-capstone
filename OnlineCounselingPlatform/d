@@ -1,0 +1,31 @@
+Access to XMLHttpRequest at 'http://localhost:5111/api/session-notes/createSession' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.Understand this error
+sessionNoteSlice.js:24 Request data: XMLHttpRequest {onreadystatechange: null, readyState: 4, timeout: 0, withCredentials: false, upload: XMLHttpRequestUpload, …}
+(anonymous) @ sessionNoteSlice.js:24
+await in (anonymous)
+(anonymous) @ createAsyncThunk.ts:333
+(anonymous) @ createAsyncThunk.ts:372
+(anonymous) @ redux-thunk.mjs:5
+(anonymous) @ immutableStateInvariantMiddleware.ts:174
+(anonymous) @ actionCreatorInvariantMiddleware.ts:29
+handleSubmit @ bundle.js:2298
+callCallback @ react-dom.development.js:4164
+invokeGuardedCallbackDev @ react-dom.development.js:4213
+invokeGuardedCallback @ react-dom.development.js:4277
+invokeGuardedCallbackAndCatchFirstError @ react-dom.development.js:4291
+executeDispatch @ react-dom.development.js:9041
+processDispatchQueueItemsInOrder @ react-dom.development.js:9073
+processDispatchQueue @ react-dom.development.js:9086
+dispatchEventsForPlugins @ react-dom.development.js:9097
+(anonymous) @ react-dom.development.js:9288
+batchedUpdates$1 @ react-dom.development.js:26179
+batchedUpdates @ react-dom.development.js:3991
+dispatchEventForPluginEventSystem @ react-dom.development.js:9287
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ react-dom.development.js:6465
+dispatchEvent @ react-dom.development.js:6457
+dispatchDiscreteEvent @ react-dom.development.js:6430
+Show 20 more frames
+Show lessUnderstand this error
+sessionNoteSlice.js:16 
+        
+        
+       POST http://localhost:5111/api/session-notes/createSession net::ERR_FAILED 408 (Request Timeout)
